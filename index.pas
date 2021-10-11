@@ -1,17 +1,14 @@
 program index;
 uses crt;
 var
-angka : integer;
+i : integer;
 begin
     clrscr;
-    angka := 4;
-    if (angka > 5 ) then
-        begin
-            writeln('Variable "angka" lebih besar dari 5');
-        end
-    else
-        begin
-            Writeln('Variable "angka" lebih kecil dari 5')
-        end;
+    i := 1;
+    while (i <= 100) do
+    begin
+        writeln(i);
+        i := i + 1;
+    end;
     readln;
 end.
